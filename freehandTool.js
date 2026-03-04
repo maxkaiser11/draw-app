@@ -13,6 +13,7 @@ function FreehandTool() {
     // *** START OF CODE WRITTEN WITHOUT ANY HELP *** //
     var brushSize = 4;
     var brushOpacity = 255;
+    // *** END OF CODE WRITTEN WITHOUT ANY HELP *** //
 
 
     this.draw = function() {
@@ -43,6 +44,7 @@ function FreehandTool() {
         }
     };
 
+    // *** START OF CODE WRITTEN WITHOUT ANY HELP *** //
     this.populateOptions = function() {
         select(".options").html(`
             <div style="display:flex; flex-direction:column; gap:8px;">

@@ -5,7 +5,6 @@ var colourP = null;
 var helpers = null;
 
 var canvasHistory;
-var prevMousePressed = false;
 
 function setup() {
 
@@ -103,7 +102,6 @@ function mousePressed() {
 
 function windowResized() {
     resizeCanvas(canvasContainer.size().width, canvasContainer.size().height);
-    background(255);
     loadPixels();
 }
 /* END OF CODE WRITTEN BY MYSELF */
