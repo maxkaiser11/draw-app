@@ -40,6 +40,7 @@ function setup() {
     toolbox.addTool(new SprayCanTool());
     toolbox.addTool(new mirrorDrawTool());
     toolbox.addTool(new StickerTool());
+    toolbox.addTool(new EraserTool());
     background(255);
 
     /* CODE WRITTEN BY MYSELF WITH NO HELP*/
